@@ -1,3 +1,0 @@
-﻿  Templates.cpp
-C:\Users\rkv22\source\repos\STL\Templates\Templates.cpp(23,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Templates.vcxproj -> C:\Users\rkv22\source\repos\STL\Debug\Templates.exe
