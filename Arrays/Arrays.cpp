@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     //c style arrays of fixed size
+    //complexity: accessor-> constant
     int arr[] = { 0,1,2,3,4,5,6,7,8 };
     int n = sizeof(arr) / sizeof(int);
     for (int i = 0; i < n; i++)

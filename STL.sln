@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleEndedQueue", "DoubleE
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pair and Tuple", "Pair and Tuple\Pair and Tuple.vcxproj", "{997C920F-C310-4AC8-93E9-5DB7FBE3C164}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "map and multi_map", "map and multi_map\map and multi_map.vcxproj", "{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{997C920F-C310-4AC8-93E9-5DB7FBE3C164}.Release|x64.Build.0 = Release|x64
 		{997C920F-C310-4AC8-93E9-5DB7FBE3C164}.Release|x86.ActiveCfg = Release|Win32
 		{997C920F-C310-4AC8-93E9-5DB7FBE3C164}.Release|x86.Build.0 = Release|Win32
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Debug|x64.ActiveCfg = Debug|x64
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Debug|x64.Build.0 = Debug|x64
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Debug|x86.Build.0 = Debug|Win32
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Release|x64.ActiveCfg = Release|x64
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Release|x64.Build.0 = Release|x64
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Release|x86.ActiveCfg = Release|Win32
+		{CAA70EA0-5C9A-460A-9829-7C02C8DA4498}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
