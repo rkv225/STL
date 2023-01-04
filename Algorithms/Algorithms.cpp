@@ -32,46 +32,47 @@ int main()
 	}
 	//*/
 
-	/*
+	///*
 	// non modifying operations
 	bool a;
-	cout << "all_of" << endl;
+	cout << "all_of:" << endl;
 	a = all_of(v.begin(), v.end(), is_even);
-	cout << a ? "all numbers are even" : "all numbers are not even";
-	cout << endl;
+	if (a) cout << "all numbers are even" << endl;
+	else cout << "all numbers are not even" << endl;
 
-	cout << "any_of" << endl;
+	cout << "any_of:" << endl;
 	a = any_of(v.begin(), v.end(), is_even);
-	cout << a ? "any of the numbers is even" : "none of the numbers is even";
-	cout << endl;
+	if (a) cout << "any of the numbers is even" << endl;
+	else cout << "none of the numbers is even" << endl;
 
-	cout << "none_of" << endl;
+	cout << "none_of:" << endl;
 	a = none_of(v.begin(), v.end(), is_even);
-	cout << a ? "none of the numbers is even" : "any number is even";
-	cout << endl;
+	if (a) cout << "none of the numbers is even" << endl;
+	else cout << "any number is even" << endl;
 
 	int c;
-	cout << "count" << endl;
+	cout << "count:" << endl;
 	c = count(v.begin(), v.end(), 5);
 	cout << "number of 5: " << c << endl;
 
-	cout << "count_if" << endl;
+	cout << "count_if:" << endl;
 	c = count_if(v.begin(), v.end(), is_even);
 	cout << "even numbers: " << c << endl;
 
 	vector<int>::iterator d;
 
-	cout << "find" << endl;
+	cout << "find:" << endl;
 	d = find(v.begin(), v.end(), 5); // return iterator to the first occurance
-	cout << (d != v.end()) ? "found 5" : "not found 5";
-	cout << endl;
-	*/
+	if (d != v.end()) cout << "found 5" << endl;
+	else cout << "not found 5" << endl;
+	//*/
 
+	///*
 	//use for strings
 	const string str = "why waste time learning, when ignorance is instantaneous";
 	const string search_str = "time";
 	string::const_iterator e;
-	cout << "search" << endl;
+	cout << "search:" << endl;
 	e = search(str.begin(), str.end(), search_str.begin(), search_str.end()); // returns Iterator to the beginning of first occurrence of the sequence
 	if (e != str.end()) cout << "found";
 	else cout << "not_found";
@@ -86,7 +87,7 @@ int main()
 	}
 	cout << endl;
 
-	cout << "fill operation" << endl;
+	cout << "fill operation:" << endl;
 	fill(nv.begin(), nv.end(), 0);
 	for (vector<int>::iterator it = nv.begin(); it != nv.end(); it++)
 	{
@@ -102,16 +103,34 @@ int main()
 	cout << endl;
 
 	stable_sort(v.begin(), v.end(), sort_comp); // sort() works in similiar manner
-	cout << "stable sort" << endl;
+	cout << "stable sort:" << endl;
 	for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
 	{
 		cout << *it << " ";
 	}
 	cout << endl;
+	//*/
 
+	///*
 	// operations on sorted ranges
+	vector<int> sv = { 1,2,3,4,5,6,7,8,9,10 };
+	vector<int>::iterator sc;
+	sc = lower_bound(sv.begin(), sv.end(), 4);
+	cout << "lower bound:" << *sc << endl;
+	sc = upper_bound(sv.begin(), sv.end(), 4);
+	cout << "upper bound:" << *sc << endl;
+	bool bs = binary_search(sv.begin(), sv.end(), 4);
+	if (bs) cout << "found in binary search" << endl;
+	else cout << "not found in binary search" << endl;
+	//*/
 
-
-	//lower_bound, upper_bound, binary_search
-	//max, max_element, min, min_element, equal
+	///*
+	// min max operations
+	sc = max_element(v.begin(), v.end());
+	cout << "max element:" << *sc << endl;
+	sc = min_element(v.begin(), v.end());
+	cout << "min element:" << *sc << endl;
+	cout << "min: " << min(1, 2) << endl;
+	cout << "max: " << max(5, 2) << endl;
+	//*/
 }
