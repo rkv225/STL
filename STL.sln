@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set and multiset", "set and
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "Algorithms\Algorithms.vcxproj", "{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heap", "heap\heap.vcxproj", "{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x64.Build.0 = Release|x64
 		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x86.ActiveCfg = Release|Win32
 		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x86.Build.0 = Release|Win32
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Debug|x64.ActiveCfg = Debug|x64
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Debug|x64.Build.0 = Debug|x64
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Debug|x86.Build.0 = Debug|Win32
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Release|x64.ActiveCfg = Release|x64
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Release|x64.Build.0 = Release|x64
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Release|x86.ActiveCfg = Release|Win32
+		{4B9EF6F0-B19A-40C6-ADD4-49A9857E33F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
