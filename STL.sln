@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deque", "deque\deque.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set and multiset", "set and multiset\set and multiset.vcxproj", "{6640A4FF-724F-4BA1-AE78-A83DE83A99C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "Algorithms\Algorithms.vcxproj", "{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{6640A4FF-724F-4BA1-AE78-A83DE83A99C7}.Release|x64.Build.0 = Release|x64
 		{6640A4FF-724F-4BA1-AE78-A83DE83A99C7}.Release|x86.ActiveCfg = Release|Win32
 		{6640A4FF-724F-4BA1-AE78-A83DE83A99C7}.Release|x86.Build.0 = Release|Win32
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Debug|x64.ActiveCfg = Debug|x64
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Debug|x64.Build.0 = Debug|x64
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Debug|x86.Build.0 = Debug|Win32
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x64.ActiveCfg = Release|x64
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x64.Build.0 = Release|x64
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x86.ActiveCfg = Release|Win32
+		{3CE8D5DD-9E46-4E2D-AEE0-8200D3E6DCCB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
